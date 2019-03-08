@@ -1,0 +1,14 @@
+{
+    "name": "amos/laravel-connect-mailbox",
+    "description": "Laravel email pull",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amos",
+            "email": "amos.wdonghong@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
