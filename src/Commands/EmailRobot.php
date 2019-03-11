@@ -26,7 +26,7 @@ class EmailRobot extends Command
      */
     public function handle()
     {
-
+        echo 123;
     }
 
 
