@@ -1,5 +1,5 @@
 {
-    "name": "amos/laravel-connect-mailbox",
+    "name": "amos/MailKit",
     "description": "Laravel email pull",
     "type": "library",
     "license": "MIT",
@@ -9,6 +9,16 @@
             "email": "amos.wdonghong@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Amos\\MailKit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Amos\\MailKit\\Tests\\": "tests/"
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
