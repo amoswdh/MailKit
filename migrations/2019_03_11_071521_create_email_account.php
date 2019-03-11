@@ -26,7 +26,7 @@ class CreateEmailAccount extends Migration
             $table->collation = 'utf8_unicode_ci';
             $table->increments('id');
             $table->string('imap_host');
-            $table->tinyInteger('imap_port');
+            $table->integer('imap_port');
             $table->string('imap_encryption');
             $table->string('imap_validate_cert');
             $table->string('imap_username');
