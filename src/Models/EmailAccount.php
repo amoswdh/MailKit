@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace Amos\MailKit\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
