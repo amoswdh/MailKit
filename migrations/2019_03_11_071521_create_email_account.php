@@ -33,7 +33,6 @@ class CreateEmailAccount extends Migration
             $table->string('imap_password');
             $table->string('imap_default_account');
             $table->string('imap_protocol');
-            $table->tinyInteger('status');
             $table->timestamps();
         });
     }
