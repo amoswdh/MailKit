@@ -25,12 +25,12 @@ class CreateEmailAccount extends Migration
             $table->charset = 'utf8';
             $table->collation = 'utf8_unicode_ci';
             $table->increments('id');
-            $table->string('imap_host');
-            $table->integer('imap_port');
-            $table->string('imap_encryption');
+            $table->string('imap_host'); //收信服务器
+            $table->integer('imap_port'); //端口
+            $table->string('imap_encryption'); //启用ssl
             $table->string('imap_validate_cert');
-            $table->string('imap_username');
-            $table->string('imap_password');
+            $table->string('imap_username'); //用户名
+            $table->string('imap_password'); //密码
             $table->string('imap_default_account');
             $table->string('imap_protocol');
             $table->tinyInteger('status');
