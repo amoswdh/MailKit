@@ -1,5 +1,5 @@
 {
-    "name": "amos/MailKit",
+    "name": "amos/mailkit",
     "description": "Laravel email pull",
     "type": "library",
     "license": "MIT",
